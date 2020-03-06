@@ -10,7 +10,7 @@ api = Api(app,
        description='api Bilancio personale',
        endpoint='api')
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///../../site.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://amgltnjvlajofo:e3157b0001b9af3ab0bc06c7f9b1a4aae92fad3e4a97eedd964974da967eab7d@ec2-54-217-204-34.eu-west-1.compute.amazonaws.com:5432/dhei6grndbv7l'
 
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)

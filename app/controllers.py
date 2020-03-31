@@ -26,7 +26,8 @@ class Get_User(Resource):
            return 'User Not Found', 404
         elif u.password != password:
            return 'Wrong Password', 400
-        return 200
+        return jsonify(u.asDict())
+
 
 @users.route('')
 class Users(Resource):

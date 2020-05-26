@@ -16,7 +16,7 @@ api = Api(app,
 #app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
 
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://amgltnjvlajofo:e3157b0001b9af3ab0bc06c7f9b1a4aae92fad3e4a97eedd964974da967eab7d@ec2-54-217-204-34.eu-west-1.compute.amazonaws.com:5432/dhei6grndbv7l'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://aymxzpntzvnvgx:e5ee99cf7eb02eed0c3b4002b82ba28c2f2e3efa226323f558768c67b2542816@ec2-54-247-89-181.eu-west-1.compute.amazonaws.com:5432/d5hh16cpa2bt0p'
 
 
 db = SQLAlchemy(app)
